@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
+console.log("Pablo va borracho a casa");
 
 // 1 - Crear variables con los tipos de datos y luego iniciarla:
 // string, number, boolean, undefined, null
