@@ -169,3 +169,67 @@ for(var i = 0; i < personaje1.length; i++)
 for(var i = 0; i < personaje2.length; i++)
     console.log(personaje2[i]);
 });
+document.addEventListener("DOMContentLoaded", () => {
+    //Aquí va el código del ejercicio
+    const luchadores = document.createElement('DIV');
+    const tabla = document.createElement('TABLE');
+    const tr = document.createElement('TR');
+    const tr2 = document.createElement('TR');
+    const tr3 = document.createElement('TR');
+    const tr4 = document.createElement('TR');
+    const th = document.createElement('TH'); 
+    const th2 = document.createElement('TH'); 
+    const td = document.createElement('TD');
+    const td2 = document.createElement('TD');
+    const td3 = document.createElement('TD');
+    const td4 = document.createElement('TD');
+    const td5 = document.createElement('TD');
+    const td6 = document.createElement('TD');
+var goku = document.getElementById('personaje1');
+var vegeta = document.getElementById('personaje2');
+
+ var nombre = 'Goku';
+ var poder = 'Kame Hame Ha';
+ var comida = 'Arroz';
+ var altura = '179';
+
+ var nombre2 = 'Vegeta';
+ var poder2 = 'Final Flash';
+ var comida2 = 'Sopa';
+ var altura2 = '168';
+
+series.appendChild(luchadores);
+luchadores.classList = 'cualidades';
+luchadores.appendChild(tabla);
+tabla.id = 'tabla';
+tabla.appendChild(tr);
+tr.classList = 'fila';
+tr.appendChild(th);
+th.classList = 'columna';
+tr.appendChild(th2);
+th2.classList = 'columna';
+tabla.appendChild(tr2);
+tr2.classList = 'fila';
+tabla.appendChild(tr3);
+tr2.classList = 'fila';
+tabla.appendChild(tr4);
+tr2.classList = 'fila';
+tr2.appendChild(td);
+tr2.appendChild(td2);
+tr3.appendChild(td3);
+tr3.appendChild(td4);
+tr4.appendChild(td5);
+tr4.appendChild(td6);
+
+
+th.innerHTML = nombre;
+th2.innerHTML = nombre2;
+td.innerHTML = poder;
+td2.innerHTML = poder2;
+td3.innerHTML = altura;
+td4.innerHTML = altura2;
+td5.innerHTML = comida;
+td6.innerHTML = comida2;
+
+
+});
