@@ -1,0 +1,63 @@
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* Estilo de la página */
+main {
+  padding: 1em 2em;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+.seccion h1 {
+  color: #d5691d;
+  font-size: 1em;
+  padding: 0 0 0.5em 0;
+}
+
+.modulo h2 {
+  color: #a8a7a7;
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+.modulo {
+  padding: 1em 0;
+  border-top: 1px solid #dcdcdc;
+  margin-top: 1em;
+}
+
+.modulo div {
+  margin: 0 0 1em 0;
+}
