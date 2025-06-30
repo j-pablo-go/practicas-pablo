@@ -86,9 +86,18 @@ miArray.forEach(perico => {
     console.log(perico);
 });
 
+var listaManual = ['Sergio', 'Rutinguer', 'Calamardo'];
+miArray.push(listaManual);
 
+console.log(miArray);
+
+var nuevoArray = miArray;
+
+nuevoArray.forEach(elemento => {
+    console.log(elemento);
+});
+console.log(nuevoArray[5]);
 function resultado_3() {
-
     var listaManual = ['Sergio', 'Rutinguer', 'Calamardo'];
 
     var nombre1 = 'Sergio'; 
@@ -101,6 +110,7 @@ function resultado_3() {
 
     console.log("Lista", lista, listaManual);
 }
+
 
 // condicionales if else
 var calle = 85;
