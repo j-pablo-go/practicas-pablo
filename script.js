@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-console.log("Pablo va borracho a casa");
+//console.log("Pablo va borracho a casa");
 
 // 1 - Crear variables con los tipos de datos y luego iniciarla:
 // string, number, boolean, undefined, null
@@ -24,9 +24,9 @@ var numero = 42;
 var pregunta = true;
 var casa = undefined;
 var moto = null;
-console.log( numero, pregunta, casa, moto); 
-console.log(`Me llamo ${nombre} y tengo ${numero} años `);
-console.log("Me llamo " + nombre + " y tengo " + numero + " años");
+//console.log( numero, pregunta, casa, moto); 
+//console.log(`Me llamo ${nombre} y tengo ${numero} años `);
+//console.log("Me llamo " + nombre + " y tengo " + numero + " años");
 
 
 function resultado() {
@@ -53,7 +53,7 @@ var numero3 = 20;
 var numero4 = 10;
 var numero5 = 24;
 var resultadoFinal = numero1 + numero2 + numero3 - numero4 + numero5;
-console.log('resultado', resultadoFinal); 
+//console.log('resultado', resultadoFinal); 
 
 function resultado_2() {
     var num1 = 30; 
@@ -75,28 +75,28 @@ miArray.push('Perico');
 miArray.unshift('chachivo');
 var numero = 30;
 miArray.push(numero);
-console.log(miArray);
-console.log('Posicion 1', miArray[1]);
+//console.log(miArray);
+//console.log('Posicion 1', miArray[1]);
 
 for(var i = 0; i < miArray.length; i++ ){
-    console.log('pedro', miArray[i]);
+    //console.log('pedro', miArray[i]);
 }
 
 miArray.forEach(perico => {
-    console.log(perico);
+   // console.log(perico);
 });
 
 var listaManual = ['Sergio', 'Rutinguer', 'Calamardo'];
 miArray.push(listaManual);
 
-console.log(miArray);
+// console.log(miArray);
 
 var nuevoArray = miArray;
 
 nuevoArray.forEach(elemento => {
-    console.log(elemento);
+   // console.log(elemento);
 });
-console.log(nuevoArray[5]);
+//console.log(nuevoArray[5]);
 function resultado_3() {
     var listaManual = ['Sergio', 'Rutinguer', 'Calamardo'];
 
@@ -115,11 +115,11 @@ function resultado_3() {
 // condicionales if else
 var calle = 85;
 if (calle === 77) {
-    console.log("ES IGUAL A 77", calle);
+    //console.log("ES IGUAL A 77", calle);
 } else if (calle === 85) {
-    console.log("ES IGUAL A 85", 85);
+  //  console.log("ES IGUAL A 85", 85);
 } else {
-    console.log("NO ES IGUAL A 77 NI 85");
+    //console.log("NO ES IGUAL A 77 NI 85");
 }
 
 
